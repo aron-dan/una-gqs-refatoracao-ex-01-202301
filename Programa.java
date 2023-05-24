@@ -18,9 +18,9 @@ class Programa {
     erroTentativas = mensagem.realizaPerguntaTeveContatoPessoasAssintomaticas(pessoa,scanner);
     erroTentativas = mensagem.realizaPerguntaEstaRetornandoViagemExterior(pessoa,scanner);
 
-    validacao.validacaoDasProximasPerguntas(pessoas);
+    validacao.validacaoDasProximasPerguntas(mensagem,pessoa,erroTentativas,scanner);
 
-    validacao.calcularValidacaoFinal(erroTentativass);
+    validacao.calcularValidacaoFinal(pessoa, mensagem, erroTentativas);
 
     // scanner.close();
   }
