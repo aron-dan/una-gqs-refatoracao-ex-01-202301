@@ -6,7 +6,7 @@ public class Pessoa {
 	public String cartaoVacinaEmDia;
 	public String teveSintomasRecentemente;
 	public String teveContatoComPessoasSintomaticas;
-	public String estaRetornandoViagem;
+	public String estaRetornandoViagem ="0";
 	public int porcentagemInfeccao;
 	public String orientacaoFinal;
 
